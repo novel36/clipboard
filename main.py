@@ -1,5 +1,15 @@
 import subprocess
 import time
+import pyperclip
+
+def on_clipboard_update(clipboard_content):
+  print("Clipboard content changed:", clipboard_content)
+
+# Register the callback function with pyperclip.
+pyperclip.waitForNewPaste
+
+# Start monitoring the clipboard.
+pyperclip.start()
 
 previous_clipboard_content = None
 
